@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  color: #4F5665;
-  background-color: #F6F6F6;
+  color: #4f5665;
+  background-color: #f6f6f6;
+}
+
+nav {
+  margin-top: 24px;
+}
+
+.main-wrapper {
+  margin: 100px 0;
+}
+
+@media (max-width: 769px) {
+  .bg-main {
+  }
 }
