@@ -7,6 +7,9 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -28,7 +31,7 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -59,45 +62,272 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <h1 class="title-main">Want anything to be easy with <strong>LaslesVPN</strong></h1>
-          <p class="subtitle-main">Provide a network for all your needs with ease and fun using <strong>LaslesVPN</strong> discover interesting features from us.</p>
+          <p class="subtitle-main">Provide a network for all your needs with ease and fun using
+            <strong>LaslesVPN</strong> discover interesting features from us.</p>
           <button class="btn button-cub">Get Started</button>
         </div>
-        <div class="col-lg-6 bg-main">
+        <div class="col-lg-6 img-main">
           <img src="./img/top_bg.png" alt="background main">
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <svg width="55" height="55" class="icon-numbers">
-            <use xlink:href="./img/icons.svg#user"></use>
-          </svg>
+    <div class="container numbs-wrapper d-flex justify-content-center">
+      <div class="col-lg-4  d-flex align-items-center justify-content-center">
+        <svg width="55" height="55" class="icon-numbers">
+          <use xlink:href="./img/icons.svg#user"></use>
+        </svg>
+        <div class="nubm-title-wrappers">
           <span class="numb-title">90+</span>
           <span class="subtitle">Users</span>
         </div>
-        <div class="col-lg-4">
-          <svg width="55" height="55" class="icon icon-like">
-            <use xlink:href="./img/icons.svg#location"></use>
-          </svg>
+      </div>
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
+        <svg width="55" height="55" class="icon icon-like">
+          <use xlink:href="./img/icons.svg#location"></use>
+        </svg>
+        <div class="nubm-title-wrappers">
           <span class="numb-title">30+</span>
           <span class="subtitle">Location</span>
         </div>
-        <div class="col-lg-4">
-          <svg width="55" height="55" class="icon icon-like">
-            <use xlink:href="./img/icons.svg#Server"></use>
-          </svg>
-          
+      </div>
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
+        <svg width="55" height="55" class="icon icon-like">
+          <use xlink:href="./img/icons.svg#Server"></use>
+        </svg>
+        <div class="nubm-title-wrappers">
           <span class="numb-title">50+</span>
           <span class="subtitle">Servers</span>
-      </div>
+        </div>
       </div>
     </div>
 
+    <!-- SECOND BLOCK -->
+
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6">
+          <img src="./img/bot-bg.png" alt="" class="img-second-block">
+        </div>
+        <div class="col-lg-6 p-5">
+          <h3 class="second-block-title">We Provide Many Features You Can Use</h3>
+          <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+          <ul>
+            <li>Powerfull online protection.</li>
+            <li>Internet without borders.</li>
+            <li>Supercharged VPN</li>
+            <li>No specific time limits.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOCK PLAN! -->
+    <div class="container-fluid d-flex flex-column align-items-center plans-block ">
+
+      <h2 class="block-plans-title">Choose Your Plan</h2>
+      <p class="block-plans-subtitle">Let's choose the package that is best for you and explore it happily and
+        cheerfully.</p>
+
+      <div class="row justify-content-between plans-column-wrapper">
+        <div class="col-lg-3">
+          <div class="col d-flex flex-column align-items-center">
+            <img src="./img/Free.png" alt="" class="plan-img">
+            <p class="title-plan">Free Plan</p>
+            <ul>
+              <li>Unlimited Bandwitch</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+            </ul>
+            <p class="price-plan">Free</p>
+            <button class="btn">Select</button>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="col d-flex flex-column align-items-center">
+            <img src="./img/Standard.png" alt="" class="plan-img">
+            <p class="title-plan">Free Plan</p>
+            <ul>
+              <li>Unlimited Bandwitch</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+              <li>Connect Anyware</li>
+            </ul>
+            <p class="price-plan">Free</p>
+            <button class="btn">Select</button>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="col d-flex flex-column align-items-center">
+            <img src="./img/Premium.png" alt="" class="plan-img">
+            <p class="title-plan">Free Plan</p>
+            <ul>
+              <li>Unlimited Bandwitch</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+              <li>Connect Anyware</li>
+              <li>Get New Features</li>
+            </ul>
+            <p class="price-plan">Free</p>
+            <button class="btn">Select</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NETWORK BLOCK -->
+    <div class="container d-flex flex-column align-items-center">
+      <div class="col-lg-6 network-title-wrapper">
+        <h3 class="network-title">Huge Global Network<br> of Fast VPN</h3>
+        <p class="network-title">See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+      </div>
+      <svg width="1060" height="540" class="map">
+        <use xlink:href="./img/icons.svg#Huge_Global"></use>
+      </svg>
+    </div>
+
+    <!-- SPONSORED -->
+
+    <div class="container-fluid d-flex justify-content-between align-items-center sponsored-wrapper">
+      <img class="netflix" src="./img/netflix.png" alt="image netflix">
+      <img class="reddit" src="./img/reddit.png" alt="image reddit">
+      <img class="amazon" src="./img/amazon.png" alt="image amazon">
+      <img class="discord" src="./img/discord.png" alt="image discord">
+      <img class="spotify" src="./img/spotify.png" alt="image spotify">
+    </div>
+
+    <div class="slider">
+
+      <div class="slider-item">
+        <div class="col">
+          <div class="row">
+            <div class="img-wrapper">
+              <img src="./img/rnd-face.jfif" alt="">
+            </div>
+            <div class="col">
+              <p class="name">Viezh Robert</p>
+              <p class="country">Warsaw, Poland</p>
+            </div>
+            <span class="rating">4.5</span>
+            <svg width="15" height="15" class="icon icon-star">
+              <use xlink:href="./img/icons.svg#star"></use>
+            </svg>
+          </div>
+          <p class="comment">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+            so far there have been no
+            problems. LaslesVPN always the best”.</p>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="col">
+          <div class="row">
+            <div class="img-wrapper">
+              <img src="./img/rnd-face.jfif" alt="">
+            </div>
+            <div class="col">
+              <p class="name">Viezh Robert</p>
+              <p class="country">Warsaw, Poland</p>
+            </div>
+            <span class="rating">4.5</span>
+            <svg width="15" height="15" class="icon icon-star">
+              <use xlink:href="./img/icons.svg#star"></use>
+            </svg>
+          </div>
+          <p class="comment">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+            so far there have been no
+            problems. LaslesVPN always the best”.</p>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="col">
+          <div class="row">
+            <div class="img-wrapper">
+              <img src="./img/rnd-face.jfif" alt="">
+            </div>
+            <div class="col">
+              <p class="name">Viezh Robert</p>
+              <p class="country">Warsaw, Poland</p>
+            </div>
+            <span class="rating">4.5</span>
+            <svg width="15" height="15" class="icon icon-star">
+              <use xlink:href="./img/icons.svg#star"></use>
+            </svg>
+          </div>
+          <p class="comment">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+            so far there have been no
+            problems. LaslesVPN always the best”.</p>
+        </div>
+      </div>
+      <div class="slider-item">
+        <div class="col">
+          <div class="row">
+            <div class="img-wrapper">
+              <img src="./img/rnd-face.jfif" alt="">
+            </div>
+            <div class="col">
+              <p class="name">Viezh Robert</p>
+              <p class="country">Warsaw, Poland</p>
+            </div>
+            <span class="rating">4.5</span>
+            <svg width="15" height="15" class="icon icon-star">
+              <use xlink:href="./img/icons.svg#star"></use>
+            </svg>
+          </div>
+          <p class="comment">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+            so far there have been no
+            problems. LaslesVPN always the best”.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container d-flex justify-content-between container-subscribe">
+      <div class="subscribe-title-wrapper">
+        <h3>Subscribe Now for Get Special Features!</h3>
+        <p>Let's subscribe with us and find the fun.</p>
+      </div>
+      <button class="btn">Subscribe Now</button>
+    </div>
+
+    <div class="container footer">
+      <div class="col-lg-6">
+        <img src="./img/Logo.png" alt="" class="logo">
+        <p class="footer-par">LaslesVPN is a private virtual network that has unique features and has high security.</p>
+        <div class="row d-flex align-items-center">
+          <svg width="65" height="65" class="icon icon-facebook">
+            <use xlink:href="./img/icons.svg#Facebook"></use>
+          </svg>
+          <svg width="15" height="15" class="icon icon-twitter">
+            <use xlink:href="./img/icons.svg#Twitter"></use>
+          </svg>
+          <svg width="15" height="15" class="icon icon-instagram">
+            <use xlink:href="./img/icons.svg#Instagram"></use>
+          </svg>
+        </div>
+        <span class="year">©2020LaslesVPN</span>
+      </div>
+
+    </div>
+    <!-- END BODY -->
   </div>
 
 
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $('.slider').slick({
+
+      slidesToShow: 3,
+      slidesToScroll: 1
+    });
+  </script>
 </body>
 
 </html>
