@@ -26,13 +26,14 @@
   <div class="container">
 
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="Logo" class="logo"></a>
+      <a class="navbar-brand col-lg-4 col-md-6 col" href="#"><img class="navbar-brand-img" src="./img/Logo.png"
+          alt="Logo" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="col-lg-8 collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -51,8 +52,8 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</button>
-          <button class="btn btn-outline-success ml-2 my-2 my-sm-0" type="submit">Sign up</button>
+          <a class="btn-in my-2 my-sm-0">Sign In</a>
+          <a class="btn-up ml-2 my-2 my-sm-0">Sign up</a>
         </form>
       </div>
     </nav>
@@ -64,7 +65,7 @@
           <h1 class="title-main">Want anything to be easy with <strong>LaslesVPN</strong></h1>
           <p class="subtitle-main">Provide a network for all your needs with ease and fun using
             <strong>LaslesVPN</strong> discover interesting features from us.</p>
-          <button class="btn button-cub">Get Started</button>
+          <a class="btn button-cub">Get Started</a>
         </div>
         <div class="col-lg-6 img-main">
           <img src="./img/top_bg.png" alt="background main">
@@ -77,7 +78,7 @@
         <svg width="55" height="55" class="icon-numbers">
           <use xlink:href="./img/icons.svg#user"></use>
         </svg>
-        <div class="nubm-title-wrappers">
+        <div class="nubm-title-wrappers d-flex flex-column">
           <span class="numb-title">90+</span>
           <span class="subtitle">Users</span>
         </div>
@@ -86,7 +87,7 @@
         <svg width="55" height="55" class="icon icon-like">
           <use xlink:href="./img/icons.svg#location"></use>
         </svg>
-        <div class="nubm-title-wrappers">
+        <div class="nubm-title-wrappers d-flex flex-column">
           <span class="numb-title">30+</span>
           <span class="subtitle">Location</span>
         </div>
@@ -95,7 +96,7 @@
         <svg width="55" height="55" class="icon icon-like">
           <use xlink:href="./img/icons.svg#Server"></use>
         </svg>
-        <div class="nubm-title-wrappers">
+        <div class="nubm-title-wrappers d-flex flex-column">
           <span class="numb-title">50+</span>
           <span class="subtitle">Servers</span>
         </div>
@@ -295,23 +296,58 @@
     </div>
 
     <div class="container footer">
-      <div class="col-lg-6">
-        <img src="./img/Logo.png" alt="" class="logo">
-        <p class="footer-par">LaslesVPN is a private virtual network that has unique features and has high security.</p>
-        <div class="row d-flex align-items-center">
-          <svg width="65" height="65" class="icon icon-facebook">
-            <use xlink:href="./img/icons.svg#Facebook"></use>
-          </svg>
-          <svg width="15" height="15" class="icon icon-twitter">
-            <use xlink:href="./img/icons.svg#Twitter"></use>
-          </svg>
-          <svg width="15" height="15" class="icon icon-instagram">
-            <use xlink:href="./img/icons.svg#Instagram"></use>
-          </svg>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./img/Logo.png" alt="" class="logo">
+          <p class="footer-par">LaslesVPN is a private virtual network that has unique features and has high security.
+          </p>
+          <div class="row d-flex align-items-center">
+            <svg width="65" height="65" class="icon icon-facebook">
+              <use xlink:href="./img/icons.svg#Facebook"></use>
+            </svg>
+            <svg width="15" height="15" class="icon icon-twitter">
+              <use xlink:href="./img/icons.svg#Twitter"></use>
+            </svg>
+            <svg width="15" height="15" class="icon icon-instagram">
+              <use xlink:href="./img/icons.svg#Instagram"></use>
+            </svg>
+          </div>
+          <span class="year">©2020LaslesVPN</span>
         </div>
-        <span class="year">©2020LaslesVPN</span>
-      </div>
 
+        <div class="col-lg-2">
+          <p class="title">Product</p>
+          <ul class="footer-links">
+            <li><a href="#">Dowload</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Server</a></li>
+            <li><a href="#">Countries</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2">
+          <p class="title">Engage</p>
+          <ul class="footer-links">
+            <li><a href="#">LaslesVPN ?</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2">
+          <p class="title">Engage</p>
+          <ul class="footer-links">
+            <li><a href="#">LaslesVPN ?</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+      </div>
     </div>
     <!-- END BODY -->
   </div>
