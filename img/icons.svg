@@ -442,59 +442,22 @@
       </filter>
     </defs>
   </symbol>
+
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="star">
     <path d="M13.19 5.418l-3.968-.577-1.774-3.595a.502.502 0 00-.897 0L4.779 4.841l-3.967.577a.5.5 0 00-.277.853l2.87 2.799-.677 3.951a.5.5 0 00.725.527L7 11.682l3.548 1.866a.5.5 0 00.725-.527l-.678-3.951 2.87-2.799a.499.499 0 00-.276-.853z" fill="#FEA250"></path>
   </symbol>
-<symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 71" id="Facebook">
-    <g filter="url(#filter0_d)">
-      <circle cx="34.8" cy="22.381" r="16.8" fill="#F53838"></circle>
-    </g>
-    <path d="M34.8 5.58c-9.278 0-16.8 7.522-16.8 16.8 0 9.28 7.521 16.8 16.8 16.8s16.8-7.52 16.8-16.8c0-9.278-7.522-16.8-16.8-16.8zm3.98 11.61h-2.526c-.299 0-.631.394-.631.917v1.824h3.158l-.477 2.6h-2.681v7.807h-2.98V22.53h-2.704v-2.6h2.703V18.4c0-2.194 1.523-3.978 3.612-3.978h2.526v2.767z" fill="#fff"></path>
-    <defs>
-      <filter id="filter0_d" x="0" y=".581" width="69.6" height="69.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-        <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
-        <feOffset dy="13"></feOffset>
-        <feGaussianBlur stdDeviation="9"></feGaussianBlur>
-        <feColorMatrix values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"></feColorMatrix>
-        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
-        <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
-      </filter>
-    </defs>
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 35" id="Facebook">
+    <path d="M16.8.58C7.521.58 0 8.103 0 17.38c0 9.28 7.521 16.8 16.8 16.8 9.278 0 16.8-7.52 16.8-16.8 0-9.278-7.522-16.8-16.8-16.8zm3.98 11.61h-2.526c-.299 0-.632.394-.632.917v1.824h3.16l-.479 2.6h-2.68v7.807h-2.98V17.53h-2.705v-2.6h2.704V13.4c0-2.194 1.523-3.978 3.612-3.978h2.525v2.767z" fill="#fff"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 71" id="Instagram">
-    <g filter="url(#filter0_d)">
-      <circle cx="35" cy="22.381" r="16.8" fill="#F53838"></circle>
-    </g>
-    <path d="M40.25 22.38a5.25 5.25 0 01-10.5 0c0-.299.032-.59.086-.874H28V28.5c0 .487.394.88.88.88h12.241A.88.88 0 0042 28.5v-6.994h-1.836c.054.283.086.575.086.875zM35 25.88a3.5 3.5 0 002.474-5.976A3.5 3.5 0 1035 25.88zm4.2-7.174h2.098a.527.527 0 00.527-.525v-2.099a.527.527 0 00-.527-.526H39.2a.527.527 0 00-.527.526v2.099a.53.53 0 00.527.525zM35 5.58a16.8 16.8 0 100 33.6 16.8 16.8 0 000-33.6zm8.75 23.605a1.95 1.95 0 01-1.944 1.945H28.194a1.95 1.95 0 01-1.944-1.945v-13.61a1.95 1.95 0 011.944-1.944h13.612a1.95 1.95 0 011.944 1.944v13.611z" fill="#fff"></path>
-    <defs>
-      <filter id="filter0_d" x=".2" y=".581" width="69.6" height="69.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-        <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
-        <feOffset dy="13"></feOffset>
-        <feGaussianBlur stdDeviation="9"></feGaussianBlur>
-        <feColorMatrix values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"></feColorMatrix>
-        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
-        <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
-      </filter>
-    </defs>
+
+   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 35" id="instagram">
+    <path d="M22.25 17.38a5.25 5.25 0 01-10.5 0c0-.299.031-.59.086-.874H10V23.5c0 .487.394.88.88.88h12.242A.88.88 0 0024 23.5v-6.994h-1.836c.054.283.086.575.086.875zM17 20.88a3.5 3.5 0 002.474-5.976A3.5 3.5 0 1017 20.88zm4.2-7.174h2.098a.527.527 0 00.527-.525v-2.099a.527.527 0 00-.527-.526H21.2a.527.527 0 00-.527.526v2.099a.53.53 0 00.527.525zM17 .58a16.8 16.8 0 100 33.6 16.8 16.8 0 000-33.6zm8.75 23.605a1.95 1.95 0 01-1.944 1.945H10.194a1.95 1.95 0 01-1.944-1.945v-13.61a1.95 1.95 0 011.944-1.944h13.612a1.95 1.95 0 011.944 1.944v13.611z" fill="#fff"></path>
   </symbol>
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 71" id="Twitter">
-    <g filter="url(#filter0_d)">
-      <circle cx="35.4" cy="22.381" r="16.8" fill="#F53838"></circle>
-    </g>
-    <path d="M35.4 5.58c-9.278 0-16.8 7.522-16.8 16.8 0 9.28 7.521 16.8 16.8 16.8s16.8-7.52 16.8-16.8c0-9.278-7.522-16.8-16.8-16.8zm6.834 13.763c.007.143.008.287.008.427 0 4.375-3.326 9.416-9.413 9.416a9.336 9.336 0 01-5.071-1.487 6.6 6.6 0 00.789.044c1.55 0 2.977-.527 4.109-1.416a3.316 3.316 0 01-3.09-2.296 3.325 3.325 0 001.492-.058 3.311 3.311 0 01-2.654-3.244v-.04a3.32 3.32 0 001.5.414 3.308 3.308 0 01-1.024-4.42 9.407 9.407 0 006.82 3.46 3.31 3.31 0 015.638-3.02 6.644 6.644 0 002.1-.803 3.325 3.325 0 01-1.455 1.833 6.648 6.648 0 001.901-.524 6.711 6.711 0 01-1.65 1.714z" fill="#fff"></path>
-    <defs>
-      <filter id="filter0_d" x=".6" y=".581" width="69.6" height="69.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-        <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
-        <feOffset dy="13"></feOffset>
-        <feGaussianBlur stdDeviation="9"></feGaussianBlur>
-        <feColorMatrix values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"></feColorMatrix>
-        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
-        <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
-      </filter>
-    </defs>
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="twitter">
+    <path d="M17.4.58C8.121.58.6 8.103.6 17.38c0 9.28 7.521 16.8 16.8 16.8s16.8-7.52 16.8-16.8c0-9.278-7.522-16.8-16.8-16.8zm6.834 13.763c.007.143.008.287.008.427 0 4.375-3.326 9.416-9.413 9.416A9.336 9.336 0 019.758 22.7a6.6 6.6 0 00.789.044c1.55 0 2.977-.527 4.109-1.416a3.316 3.316 0 01-3.09-2.296 3.325 3.325 0 001.492-.058 3.311 3.311 0 01-2.655-3.244v-.04c.447.246.958.397 1.5.414a3.308 3.308 0 01-1.024-4.42 9.407 9.407 0 006.82 3.46 3.31 3.31 0 015.639-3.02 6.644 6.644 0 002.1-.803 3.325 3.325 0 01-1.454 1.833 6.648 6.648 0 001.9-.524 6.711 6.711 0 01-1.65 1.714z" fill="#fff"></path>
   </symbol>
+
   
 </svg>
