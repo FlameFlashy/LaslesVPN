@@ -176,6 +176,7 @@ a.button-cub {
   border-radius: 10px;
   background-color: #fff;
   transition: all 0.4s;
+  margin: 20px 0;
 }
 
 .plan-wrapper:hover {
@@ -294,9 +295,36 @@ a.button-cub {
   max-width: 190px;
 }
 
+.slider-title {
+  margin-bottom: 60px;
+}
+
 
 .slider .img-wrapper {
-  width: 35px;
+  width: 50px;
+  height: 50px;
+
+}
+
+.slider .img-wrapper img {
+  border-radius: 50%;
+}
+
+.slider p.name {
+  margin: 5px 0 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B132A;
+}
+
+.slider p.country {
+  font-size: 14px;
+  margin: 0;
+}
+
+.slider .comment {
+  color: #0B132A;
 }
 
 .info-container-subs {
@@ -362,9 +390,62 @@ a.subscribe-btn {
   color: #4F5665;
 }
 
+/* SLider */
+
+.slider-item {
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  margin: 0 20px;
+  transition: all 0.4s;
+}
+
+.slider-item:focus {
+  border: 2px solid #F53838;
+  border-radius: 10px;
+}
+
+.rating {
+  color: #0B132A;
+}
+
+.slider-item .icon-star {
+  margin: 0 0 4px 10px;
+}
+
+.slick-dots {
+  text-align: left;
+  margin-left: 18px;
+}
+
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  background-color: #000;
+}
 
 
 @media (max-width: 769px) {
-  .img-main {
+  .map {
+    width: 750px;
   }
+  
+  .img-main {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 426px) {
+  .map {
+    width: 400px;
+    height: 206px;
+  }
+}
+
+@media (max-width: 321px) {
+  .map {
+    width: 300px;
+    height: 120px;
+    margin: 12px;
+  }
+  
 }
