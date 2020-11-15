@@ -10,11 +10,17 @@ body {
   background-color: #fff;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -34,7 +40,7 @@ nav {
 .btn-in {
   color: #000;
   font-weight: 500;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   background-color: transparent;
   text-decoration: none;
@@ -47,13 +53,13 @@ nav {
 a.btn-in:hover {
   color: #000;
   text-decoration: none;
-  border-bottom:  2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 .btn-up {
-  color: #F53838;
+  color: #f53838;
   font-weight: 500;
-  border: 1px solid #F53838;
+  border: 1px solid #f53838;
   border-radius: 30px;
   background-color: transparent;
   text-decoration: none;
@@ -65,20 +71,22 @@ a.btn-in:hover {
 a.btn-up:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #F53838;
+  background-color: #f53838;
 }
 
 a.button-cub {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
-  padding: 17px 77px;
-  background-color: #F53838;
+  padding: 17px;
+  background-color: #f53838;
   transition: all 0.4s;
   border-radius: 10px;
   margin-top: 50px;
   box-shadow: 0px 22px 40px rgba(245, 56, 56, 0.35);
+  max-height: 60px;
+  max-width: 250px;
+  width: 100%;
 }
-
 
 .main-wrapper {
   margin: 100px 0;
@@ -89,7 +97,7 @@ a.button-cub {
 }
 
 .info-container {
-  height: 200px;
+  min-height: 200px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0px 22px 40px rgba(61, 61, 61, 0.048);
@@ -103,13 +111,13 @@ a.button-cub {
   font-size: 25px;
   line-height: 30px;
   font-weight: 600;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .subtitle {
   font-size: 20px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
 }
 
 .container-second-block {
@@ -123,7 +131,7 @@ a.button-cub {
 .second-block-title {
   font-size: 35px;
   line-height: 50px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .container-second-block ul {
@@ -150,15 +158,14 @@ a.button-cub {
   left: 0;
 }
 
-.plans-block
-{
+.plans-block {
   margin: 80px 0 150px 0;
 }
 
 .block-plans-title {
   font-size: 35px;
   line-height: 50px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .block-plans-subtitle {
@@ -172,7 +179,7 @@ a.button-cub {
 }
 
 .plan-wrapper {
-  border: 2px solid #DDDDDD;
+  border: 2px solid #dddddd;
   border-radius: 10px;
   background-color: #fff;
   transition: all 0.4s;
@@ -180,7 +187,7 @@ a.button-cub {
 }
 
 .plan-wrapper:hover {
-  border: 2px solid #F53838;
+  border: 2px solid #f53838;
   border-radius: 10px;
 }
 
@@ -200,7 +207,7 @@ a.button-cub {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: #0B132A;
+  color: #0b132a;
   margin-bottom: 30px;
 }
 
@@ -220,7 +227,7 @@ a.button-cub {
   padding-bottom: 10px;
   font-size: 14px;
   line-height: 30px;
-  color: #4F5665;
+  color: #4f5665;
 }
 
 .plan-wrapper li::before {
@@ -240,12 +247,12 @@ a.button-cub {
   font-size: 25px;
   line-height: 30px;
   text-align: center;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .normal {
   font-weight: 400;
-  color: #4F5665;
+  color: #4f5665;
 }
 
 .btn-plan {
@@ -253,10 +260,10 @@ a.button-cub {
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
-  color: #F53838;
+  color: #f53838;
   font-weight: 600;
-  padding:  13px 63px;
-  border: 2px solid #F53838;
+  padding: 13px 63px;
+  border: 2px solid #f53838;
   border-radius: 50px;
   margin-bottom: 50px;
   margin-top: 10px;
@@ -266,7 +273,7 @@ a.button-cub {
 .btn-plan:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #F53838;
+  background-color: #f53838;
   box-shadow: 0px 12px 40px rgba(245, 56, 56, 0.35);
 }
 
@@ -279,7 +286,7 @@ a.button-cub {
   font-size: 35px;
   line-height: 50px;
   text-align: center;
-  color: #0B132A;
+  color: #0b132a;
   margin-bottom: 20px;
 }
 
@@ -299,11 +306,9 @@ a.button-cub {
   margin-bottom: 60px;
 }
 
-
 .slider .img-wrapper {
   width: 50px;
   height: 50px;
-
 }
 
 .slider .img-wrapper img {
@@ -315,7 +320,7 @@ a.button-cub {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .slider p.country {
@@ -324,11 +329,12 @@ a.button-cub {
 }
 
 .slider .comment {
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .info-container-subs {
   margin: 70px 0;
+  padding-left: 50px;
 }
 
 .subscribe-title-wrapper {
@@ -339,7 +345,7 @@ a.button-cub {
   font-weight: 500;
   font-size: 35px;
   line-height: 45px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 a.subscribe-btn {
@@ -368,11 +374,11 @@ a.subscribe-btn {
 }
 
 .year {
-  color: #AFB5C0;
+  color: #afb5c0;
 }
 
 .footer .title {
-  color: #0B132A;
+  color: #0b132a;
   font-weight: 500;
   font-size: 18px;
 }
@@ -387,25 +393,25 @@ a.subscribe-btn {
 }
 
 .footer a {
-  color: #4F5665;
+  color: #4f5665;
 }
 
 /* SLider */
 
 .slider-item {
-  border: 2px solid #DDDDDD;
+  border: 2px solid #dddddd;
   border-radius: 10px;
   margin: 0 20px;
   transition: all 0.4s;
 }
 
-.slider-item:focus {
-  border: 2px solid #F53838;
+.slider-item:hover {
+  border: 2px solid #f53838;
   border-radius: 10px;
 }
 
 .rating {
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .slider-item .icon-star {
@@ -417,20 +423,28 @@ a.subscribe-btn {
   margin-left: 18px;
 }
 
-
 .slick-dots li.slick-active button:before {
   color: #fff;
   background-color: #000;
 }
 
-
 @media (max-width: 769px) {
   .map {
     width: 750px;
   }
-  
+
   .img-main {
     margin-top: 60px;
+  }
+
+  .numb-items > div {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .button-cub {
+    margin-bottom: 24px;
+    margin-right: auto;
   }
 }
 
@@ -439,13 +453,16 @@ a.subscribe-btn {
     width: 400px;
     height: 206px;
   }
+
+  .numb-items > div {
+    margin: 16px auto;
+  }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 376px) {
   .map {
     width: 300px;
     height: 120px;
     margin: 12px;
   }
-  
 }
