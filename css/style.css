@@ -423,9 +423,60 @@ a.subscribe-btn {
   margin-left: 18px;
 }
 
-.slick-dots li.slick-active button:before {
+.slick-prev::before, .slick-next::before {
+  display: none;
+}
+
+.slick-dots li.slick-active button::before {
   color: #fff;
   background-color: #000;
+}
+
+.slick-prev, .slick-next {
+  display: flex;
+  cursor: pointer;
+  border: 2px solid #F53838;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-family: Rubiko;
+  color: #f53838;
+  position: absolute;
+
+}
+
+.slick-prev {
+  background-image: url(../img/left-red.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -100px;
+  top: auto;
+  right: 130px;
+  left: auto;
+}
+
+.slick-prev:hover {
+  background-image: url(../img/left-white.png);
+  background-color: #f53838;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slick-next {
+  background-image: url(../img/right-red.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -100px;
+  top: auto;
+  right: 60px;
+  left: auto;
+}
+
+.slick-next:hover {
+  background-image: url(../img/right-white.png);
+  background-color: #f53838;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 769px) {
