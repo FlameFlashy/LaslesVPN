@@ -124,6 +124,10 @@ a.button-cub {
   margin: 95px 0;
 }
 
+.second-block-text-wrapper {
+  padding-left: 46px;
+}
+
 .img-second-block {
   padding: 30px;
 }
@@ -479,6 +483,40 @@ a.subscribe-btn {
   background-repeat: no-repeat;
 }
 
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+  background-color: #DDE0E4;
+  border-radius: 35px;
+  margin-right: 35px;
+}
+
+.slick-dots li button::before {
+  display: none;
+}
+
+.slick-dots li.slick-active button{
+  width: 15px;
+  height: 15px;
+  background-color: #f53838;
+  border-radius: 35px;
+  padding-left: 35px;
+  transition: all 0.4s;
+}
+
+.slick-dots li.slick-active button::before{
+  display: none;
+}
+
+.slick-dots li.slick-active {
+  width: 40px;
+}
+
+.slick-dots {
+  bottom: -46px;
+  width: auto;
+}
+
 @media (max-width: 769px) {
   .map {
     width: 750px;
@@ -508,6 +546,35 @@ a.subscribe-btn {
   .numb-items > div {
     margin: 16px auto;
   }
+
+  .main-wrapper {
+    margin: 50px 0;
+  }
+
+  .slick-prev, .slick-next {
+    display: none!important;
+  }
+
+  .info-container {
+    margin: 36px 0;
+  }
+
+  .info-container-subs {
+    padding-left: 12px;
+  }
+
+  .container-second-block {
+    margin: 50px 0;
+  }
+
+  .plans-block {
+    margin: 50px 0;
+  }
+
+  .sponsored-wrapper {
+    margin: 50px 0;
+  }
+  
 }
 
 @media (max-width: 376px) {
