@@ -88,6 +88,11 @@ a.button-cub {
   width: 100%;
 }
 
+a.button-cub:hover {
+  animation: bounce; 
+  animation-duration: 1s;
+}
+
 .main-wrapper {
   margin: 100px 0;
 }
@@ -574,7 +579,6 @@ a.subscribe-btn {
   .sponsored-wrapper {
     margin: 50px 0;
   }
-  
 }
 
 @media (max-width: 376px) {
